@@ -1,3 +1,10 @@
+<!--
+ * @Author: 
+ * @Date: 2025-01-15 21:29:56
+ * @LastEditors: 
+ * @LastEditTime: 2025-01-15 21:45:27
+ * @Description: file content
+-->
 
 # Llama.cpp Server for HarmonyOS Next
 
@@ -51,7 +58,7 @@ cd llama.cpp-server-ohos
 
 ### 4. 调用服务
 
-服务启动后，默认监听 `127.0.0.1:8000`。你可以通过Chatbox、OpenWebUI等使用 HTTP 调用推理接口。
+服务启动后，默认监听 `0.0.0.0:8080`。你可以通过Chatbox、OpenWebUI等使用 HTTP 调用推理接口。
 
 
 ---
